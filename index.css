@@ -1,0 +1,219 @@
+.today-stats .title h4 {
+    text-transform: uppercase;
+}
+
+.value {
+    color: var(--azul);
+}
+
+.heart-header .icon, .heart-header .value {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heart-header .value h1 {
+    margin-bottom: 0;
+}
+
+.heart-header .value p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.heart-header .icon {
+    background-color: var(--turquesa-2);
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 200px;
+}
+
+.heart-header {
+    margin-bottom: 15%;
+    margin-top: 3%;
+}
+
+.stats {
+    display: grid;
+    row-gap: 7px;
+}
+
+.stats-value {
+    padding: 6px 11px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    column-gap: 5px;
+    align-items: center;
+    border-radius: 10px;
+    height: 46px;
+}
+
+.today-stats .title {
+    text-align: center;
+    border-bottom: 2px solid var(--vermelho-3);
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.today-stats .title h4 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.stats-value .stats-text span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.stats-value.heart {
+    background-color: var(--vermelho-2);
+}
+
+.stats-value.heart .stats.icon {
+    row-gap: 1px;
+}
+
+.stats-value.heart .icon span {
+    font-size: 10px;
+}
+
+.stats-value.steps {
+    background-color: var(--amarelo-2);
+}
+
+.stats-value.calories {
+    background-color: var(--turquesa-2);
+}
+
+.stats-value.weight {
+    background-color: var(--azul-2);
+}
+
+.stats a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.stats a:visited {
+    color: var(--preto);
+}
+
+.stats-value.heart:hover {
+    background-color: var(--vermelho);
+}
+
+.stats-value.steps:hover {
+    background-color: var(--amarelo);
+}
+
+.stats-value.calories:hover {
+    background-color: var(--turquesa);
+}
+
+.stats-value.weight:hover {
+    background-color: var(--azul);
+}
+
+
+
+
+ /* AQUI COMEÇA O BOTAO HELP e CREDITOS, ATÉ O UTLIMO */
+
+ .credits p {
+    text-align: center;
+    font-size: 12px;
+ }
+
+.credits a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.credits a:visited, credits a:link {
+  color: var(--turquesa);
+}
+
+.credits a:hover {
+  color: var(--turquesa-2);
+}
+
+.help {
+  width: 40px;
+  /* margin: auto; */
+  display: grid;
+  justify-items: center;
+  row-gap: 5px;
+}
+  
+.help .question {
+  height: 40px;
+  width: 40px;
+  background: var(--vermelho);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 43px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--azul);
+}
+
+.help .popup {
+  width: 20rem;
+  height: 0px;
+  text-align: left;
+  overflow: hidden;
+  /* position: relative; */
+  background: var(--branco-2);
+  opacity: 0;
+  transition: 1s;
+}
+
+.help .popup {
+  left: -260px;
+  top: 10px;
+}
+
+.help .popup2 {
+  height: 220px;
+}
+
+.help .popup2 h4 {
+  font-size: 18px;
+  padding: 10px;
+  margin: 0;
+}
+
+.help:hover .popup {
+  opacity: 1;
+  height: 270px;
+}
+
+.help .popup h3 {
+  margin: 0;
+  padding: 10px 0 0 10px;
+  height: 30px;
+  background: var(--vermelho);
+  color: var(--azul);
+  font-weight: 600;
+}
+
+.help .popup p {
+  font-size: 16px;
+  padding: 10px;
+  margin: 0;
+}
+
+.help .popup strong {
+  color: var(--vermelho);
+}
+
+.help .popup a {
+  text-decoration: none;
+  /* color: #317eac; */
+}
+
+.help .popup p em {
+  font-size: 12px;
+}
